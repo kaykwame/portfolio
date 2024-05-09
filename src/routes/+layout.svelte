@@ -9,7 +9,7 @@
 	<Header {tabs} />
 	<main class=" overflow-x-hidden">
 		<div class="w-screen">
-			<div class="desktop:mx-40 laptop:mx-40 table:mx-20 mx-3">
+			<div class="desktop:mx-40 laptop:mx-40 table:mx-20 mx-5">
 				<slot />
 			</div>
 		</div>
