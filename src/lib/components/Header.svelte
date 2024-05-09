@@ -1,5 +1,6 @@
 <script lang="ts">
 	import CloseSVG from '$lib/components/SVGs/CloseSVG.svelte';
+	import { showProj } from '$lib/stores/showProjStore';
 	export let tabs: string[];
 	let showMobileMenu: boolean = false;
 </script>
@@ -62,7 +63,13 @@
 						class="-m-2.5 p-2.5 text-gray-700"
 					>
 						<span class="sr-only">Close menu</span>
-						<CloseSVG />
+						<button
+							on:click={() => {
+								showProj.set(false);
+							}}
+						>
+							<CloseSVG />
+						</button>
 					</button>
 				</div>
 				<div class="mt-2 space-y-2">

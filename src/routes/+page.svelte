@@ -2,7 +2,8 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import CloseSVG from '$lib/components/SVGs/CloseSVG.svelte';
 	import Projects from '$lib/components/Projects.svelte';
-	let showProj: boolean = false;
+	import { showProj } from '$lib/stores/showProjStore';
+	showProj.set(false);
 </script>
 
 <svelte:head>
@@ -11,12 +12,12 @@
 </svelte:head>
 
 <section class="space-y-12 mb-12">
-	{#if !showProj}
+	{#if !$showProj}
 		<Hero />
 		<hr />
 		<Projects
 			on:slideProject={() => {
-				showProj = true;
+				showProj.set(true);
 			}}
 		/>
 	{/if}
@@ -24,7 +25,7 @@
 	{#if showProj}
 		<button
 			on:click={() => {
-				showProj = false;
+				showProj.set(false);
 			}}
 		>
 			<CloseSVG />
