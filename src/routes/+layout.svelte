@@ -1,22 +1,17 @@
 <script lang="ts">
-	import Header from "$lib/components/Header.svelte";
-	import "../app.css";
+	import Header from '$lib/components/Header.svelte';
+	import '../app.css';
 
-	const tabs: string[] = ["Skills", "Projects", "Experience", "Education", "Resume"]
-	
+	const tabs: string[] = ['Skills', 'Experience', 'Education', 'Resume'];
 </script>
 
-<div class="app">
-	<Header {tabs}/>
+<div class="app bg-gray-50">
+	<Header {tabs} />
 	<main class=" overflow-x-hidden">
-		<div class="w-screen min-h-[79vh]">
-		<div class=" mx-40">
-
-			<slot />
-		</div>
-
+		<div class="w-screen">
+			<div class="desktop:mx-40 laptop:mx-40 table:mx-20 mx-10">
+				<slot />
+			</div>
 		</div>
 	</main>
 </div>
-
-
