@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Hero from '$lib/components/Hero.svelte';
+	import CloseSVG from '$lib/components/SVGs/CloseSVG.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	let showProj: boolean = false;
 </script>
@@ -21,6 +22,12 @@
 	{/if}
 
 	{#if showProj}
-		something
+		<button
+			on:click={() => {
+				showProj = false;
+			}}
+		>
+			<CloseSVG />
+		</button>
 	{/if}
 </section>

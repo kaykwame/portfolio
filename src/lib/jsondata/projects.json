@@ -2,21 +2,21 @@
 	{
 		"image source": "oo",
 		"project name": "Project 1",
-		"project description": ""
+		"project description": "[Project details text goes here]"
 	},
 	{
 		"image source": "dd",
 		"project name": "Project 2",
-		"project description": ""
+		"project description": "[Project details text goes here]"
 	},
 	{
 		"image source": "oo",
 		"project name": "Project 3",
-		"project description": ""
+		"project description": "[Project details text goes here]"
 	},
 	{
 		"image source": "dd",
 		"project name": "Project 4",
-		"project description": ""
+		"project description": "[Project details text goes here]"
 	}
 ]

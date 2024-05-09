@@ -9,7 +9,7 @@
 <div>
 	<p class="text-center font-semibold font-mono text-gray-600">Projects</p>
 	<div
-		class="grid grid-cols-1 desktop:grid-cols-2 laptop:grid-cols-2 tablet:grid-cols-2 space-x-3 justify-center"
+		class="grid grid-cols-1 desktop:grid-cols-2 laptop:grid-cols-2 tablet:grid-cols-2 justify-center"
 	>
 		{#each projects as proj}
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
