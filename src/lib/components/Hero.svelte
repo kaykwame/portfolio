@@ -18,7 +18,7 @@
 		<div class="laptop:col-span-1 tablet:col-span-1 phone:grid-cols-1">
 			<div class="w-full flex justify-center">
 				<img
-					class="max-w-[80%] rounded-full border shadow-md duration-100 ease-in-out cursor-pointer hover:scale-105 transition"
+					class="max-w-[80%] rounded-lg border shadow-md duration-100 ease-in-out cursor-pointer hover:scale-105 transition"
 					src="hompagepx.png"
 					alt=""
 				/>
