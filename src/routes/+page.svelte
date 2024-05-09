@@ -3,7 +3,11 @@
 	import CloseSVG from '$lib/components/SVGs/CloseSVG.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import { showProj } from '$lib/stores/showProjStore';
-	showProj.set(false);
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		showProj.set(false);
+	});
 </script>
 
 <svelte:head>
@@ -22,7 +26,7 @@
 		/>
 	{/if}
 
-	{#if showProj}
+	{#if $showProj}
 		<button
 			on:click={() => {
 				showProj.set(false);
