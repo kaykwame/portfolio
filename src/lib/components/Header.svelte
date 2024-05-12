@@ -33,7 +33,8 @@
 			</button>
 			<a
 				href="/"
-				class="hidden laptop:flex laptop:gap-x-11 laptop:text-sm laptop:font-semibold laptop:leading-6 laptop:text-gray-700"
+				id="myname"
+				class=" phone:justify-center flex laptop:gap-x-11 laptop:text-3xl font-semibold leading-6 text-gray-700"
 				>K.A. Gyampoh</a
 			>
 		</div>
@@ -90,3 +91,9 @@
 		</div>
 	{/if}
 </header>
+
+<style>
+	#myname {
+		font-family: 'Brush Script MT', cursive;
+	}
+</style>
