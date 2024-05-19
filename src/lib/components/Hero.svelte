@@ -10,11 +10,7 @@
 			class="laptop:col-span-2 tablet:col-span-2 phone:grid-cols-1 flex justify-center items-center"
 		>
 			<div>
-				<h1
-					class="font-bold phone:text-3xl tablet:text-5xl laptop:text-6xl desktop:text-6xl mb-10 text-center"
-				>
-					WEB DEVELOPER
-				</h1>
+				<h1 class="font-bold phone:text-6xl text-5xl mb-10 text-center">WEB DEVELOPER</h1>
 				<p class="desktop:text-base text-sm max-w-full font-mono text-gray-600">
 					Hi&#128075, Kwame here. <br /> I am a graduate Electrical Engineer turned Web Developer. I
 					am currently helping drive digital innovation through building web-based software for workflow
