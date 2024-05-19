@@ -9,11 +9,19 @@
 		<div
 			class="laptop:col-span-2 tablet:col-span-2 phone:grid-cols-1 flex justify-center items-center"
 		>
-			<p class="desktop:text-base text-sm max-w-full font-mono text-gray-600">
-				A graduate Electrical Engineer turned Software Developer. Currently helping drive digital
-				innovation through building web-based software for workflow automation in the smart building
-				consulting industry. Let's connect and share ideas. Cheers!
-			</p>
+			<div>
+				<h1
+					class="font-bold phone:text-3xl tablet:text-5xl laptop:text-6xl desktop:text-6xl mb-10 text-center"
+				>
+					WEB DEVELOPER
+				</h1>
+				<p class="desktop:text-base text-sm max-w-full font-mono text-gray-600">
+					Hi&#128075, Kwame here. <br /> I am a graduate Electrical Engineer turned Web Developer. I
+					am currently helping drive digital innovation through building web-based software for workflow
+					automation in the smart building consulting industry. Let's connect and share ideas. Cheers!
+					&#128521
+				</p>
+			</div>
 		</div>
 		<div class="laptop:col-span-1 tablet:col-span-1 phone:grid-cols-1">
 			<div class="w-full flex justify-center">
