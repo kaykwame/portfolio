@@ -34,7 +34,7 @@
 			<a
 				href="/"
 				id="myname"
-				class=" phone:justify-center flex laptop:gap-x-11 laptop:text-3xl font-semibold leading-6 text-gray-700"
+				class=" phone:justify-center flex laptop:gap-x-11 text-2xl font-semibold leading-6 text-gray-700"
 				>K.A. Gyampoh</a
 			>
 		</div>
