@@ -12,8 +12,8 @@
 			<div>
 				<h1 class="font-bold phone:text-6xl text-5xl mb-10 text-center">WEB DEVELOPER</h1>
 				<p class="desktop:text-base text-sm max-w-full font-mono text-gray-600">
-					Hi&#128075, Kwame here. <br /> I am a graduate Electrical Engineer turned Web Developer. I
-					am currently helping drive digital innovation through building web-based software for workflow
+					Hi there &#128075, Kwame here. <br /> I am a graduate Electrical Engineer turned Web Developer.
+					I am currently helping drive digital innovation through building web-based software for workflow
 					automation in the smart building consulting industry. Let's connect and share ideas. Cheers!
 					&#128521
 				</p>
